@@ -2,9 +2,12 @@
 
 <h1>Compose</h1>
 <div>
-    <form class="item" action="/" method="post">
-        <input type="text" name="compose" placeholder="New compose" autocomplete="off" required>
-        <button type="submit">publish</button>    
+    <form class="item" action="/compose" method="post">
+        <label>Tittle</label>
+        <input type="text" class="form-control" name="composeTittle" autocomplete="off" required>
+        <label>Post</label>
+        <textarea class="form-control" name= "composeText" rows="15" ></textarea>
+        <button type="submit" class="btn btn-primary">Publish</button> 
     </form> 
 </div>
 
